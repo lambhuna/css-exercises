@@ -1,0 +1,14 @@
+.confirm,
+.deny {
+    font-size: 28px;
+    font-family: Helvetica, "DejaVu Sans", sans-serif;
+}
+
+.confirm {
+    background-color: black;
+    color: white;
+}
+
+.deny {
+    background-color: rgb(255, 255, 90);
+}
