@@ -25,3 +25,45 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+button {
+  padding: 8px;
+}
+/* Could provide padding 8px 16px for better sides of buttons */
+
+a {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.footer {
+  background-color: lightgrey;
+}
